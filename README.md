@@ -2,11 +2,9 @@
 
 ## Overview
 
-The source code is included to allow for the reproducibility of our results. Make sure to download all files, as well as the dataset folder.
+The source code is included to allow for the reproducibility of our results. Make sure to download all files, as well as the dataset folder. This code was heavily repurposed from the "Fast and Accurate Multiclass Inference for MI-BCIs Using Large Multiscale Temporal and Spectral Features" repo. The original code was written by Michael Hersche and Tino Rellstab (credited in the Authors section below). This repo simply adds four files to the original repo: main_svm.py, main_knn.py, main_lda.pa, and plot.py. The first three files run the SVM, KNN, and LDA machine learning algorithms respectively on the 9 datasets. plot.py is a simple script that can quickly create plots to visualize the results of the first three files. 
 
-## Important Note
-
-This code was heavily repurposed. The original code was written by Michael Hersche and Tino Rellstab (credited in the Authors section below). 
+The original repo can be found at https://github.com/MultiScale-BCI/IV-2a .
 
 ## Getting Started
 
@@ -60,9 +58,9 @@ The data is manually inputted in a Python list, so make sure to adjust the list 
 
 ## Authors
 
-* **Zach Gillette** - *Other work* - [ztgillette](https://github.com/ztgillette)
+* **Zach Gillette** - *Initial work* - [ztgillette](https://github.com/ztgillette)
 
-* **Orlando Azuara** - *Other work* - [orlandoazu0709](https://github.com/orlandoazu0709)
+* **Orlando Azuara** - *Initial work* - [orlandoazu0709](https://github.com/orlandoazu0709)
 
 * **Michael Hersche** - *Initial work* - [MHersche](https://github.com/MHersche)
 * **Tino Rellstab** - *Initial work* - [tinorellstab](https://github.com/tinorellstab)
