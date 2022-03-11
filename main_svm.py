@@ -143,11 +143,13 @@ def main():
 		print("Test data set")
 	start = time.time()
 
+	print("\nAccuracy rate per data set")
+
 	# Go through all subjects 
+	num_subject = 0
 	for model.subject in range(1,model.NO_subjects+1):
 
-		#print("Subject" + str(model.subject)+":")
-		
+		num_subject += 1
 
 		if model.crossvalidation:
 			success_sub_sum = 0 
@@ -164,7 +166,7 @@ def main():
 			model.load_data()
 			success_rate = model.run_svm()
 
-		print(success_rate)
+		print("Dataset " + str(num_subject) + ": " + str(success_rate))
 		success_tot_sum += success_rate 
 
 
