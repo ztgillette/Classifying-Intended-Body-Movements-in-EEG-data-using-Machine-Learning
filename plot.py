@@ -43,7 +43,7 @@ plt.plot(num_dataset, lda_accuracy, 'o')
 plt.legend(["SVM", "KNN", "LDA"])
 
 #axis labels
-plt.xlabel("Dataset")
+plt.xlabel("Subset Number (1-9) of Dataset")
 plt.ylabel("Accuracy Rate (%)")
 
 #display the plot
